@@ -19,7 +19,7 @@ namespace Com.BatikSolo.Service.Core.Lib.Services
         {
             string storageAccountName = APIEndpoint.StorageAccountName;
             string storageAccountKey = APIEndpoint.StorageAccountKey;
-            string storageContainer = "BatikSolo-product-image";
+            string storageContainer = "batiksolo-product-image";
 
             this.ServiceProvider = serviceProvider;
             this.StorageAccount = new CloudStorageAccount(new StorageCredentials(storageAccountName, storageAccountKey), useHttps: true);
